@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  smartHome
+//
+//  Created by bang on 2018/2/10.
+//  Copyright © 2018年 XiaoHuiBang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define KAppLine   1/[UIScreen mainScreen].scale
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// 自定义log输出，debug时，正常NSLog输出，release状态，为空，不打印
+#ifdef DEBUG // 调试时
+
+#define DeBuGLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布时
+
+#define DeBuGLog(...)
+
+#endif
+#import "ViewController.h"
+#import "HomeViewController.h"
+#import "HTTPSessionManager.h"
+#import "ErrorView.h"
+#import "UIColor+APPcolor.h"
+#import "PromptViewTwo.h"
+//第三方
+#import <Masonry/Masonry.h>
+#import <JPFPSStatus/JPFPSStatus.h>
+#import <AFNetworking.h>
+#import <MJRefresh/MJRefresh.h>
+#import <YYText/YYText.h>
+#import <TXJAllTools/AllTools.h>
+//
+#define kNoDataPromptText               @"您暂时没有相关数据"
+#define kNetworkErrorPromptText         @"网络好像出错啦"
+#define kNetwortErrorBtnTitle           @"立即刷新"
+
+#define kWaiting                        @"请稍候…"
+#define kRequesting                     @"请求中…"
+#define kLoading                        @"加载中…"
+
+#endif /* PrefixHeader_pch */

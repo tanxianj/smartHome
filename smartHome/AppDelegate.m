@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [UIButton appearance].adjustsImageWhenDisabled  = NO;
+    [UIButton appearance].adjustsImageWhenHighlighted = NO;
+    [[UITableView appearance] setSeparatorInset:UIEdgeInsetsMake(0, 0, 0, 0)];
+#if defined(DEBUG)||defined(_DEBUG)
+    [[JPFPSStatus sharedInstance] close];
+    [[JPFPSStatus sharedInstance] open];
+    [JPFPSStatus sharedInstance].fpsLabel.textColor = [UIColor greenColor];
+#endif
     return YES;
 }
 

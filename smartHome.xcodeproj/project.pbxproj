@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3626A055202EA4B100A4ED91 /* ViewControllertest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626A054202EA4B100A4ED91 /* ViewControllertest1.m */; };
+		3626A0592031623900A4ED91 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626A0582031623900A4ED91 /* BluetoothViewController.m */; };
 		3696C61A202E8AEB00FA512C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C619202E8AEB00FA512C /* AppDelegate.m */; };
-		3696C61D202E8AEB00FA512C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C61C202E8AEB00FA512C /* ViewController.m */; };
 		3696C620202E8AEB00FA512C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3696C61E202E8AEB00FA512C /* Main.storyboard */; };
-		3696C622202E8AEB00FA512C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3696C621202E8AEB00FA512C /* Assets.xcassets */; };
 		3696C625202E8AEB00FA512C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3696C623202E8AEB00FA512C /* LaunchScreen.storyboard */; };
 		3696C628202E8AEB00FA512C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C627202E8AEB00FA512C /* main.m */; };
 		3696C632202E8AEB00FA512C /* smartHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C631202E8AEB00FA512C /* smartHomeTests.m */; };
 		3696C63D202E8AEB00FA512C /* smartHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C63C202E8AEB00FA512C /* smartHomeUITests.m */; };
+		3696C656202E8CC100FA512C /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C64D202E8CBF00FA512C /* Button.m */; };
+		3696C657202E8CC100FA512C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C64F202E8CBF00FA512C /* ViewController.m */; };
+		3696C658202E8CC100FA512C /* UIColor+APPcolor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C654202E8CC000FA512C /* UIColor+APPcolor.m */; };
+		3696C659202E8CC100FA512C /* UIWindow+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C655202E8CC100FA512C /* UIWindow+Motion.m */; };
+		3696C65F202E8CD200FA512C /* RespondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C65B202E8CD100FA512C /* RespondModel.m */; };
+		3696C660202E8CD200FA512C /* HTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C65D202E8CD200FA512C /* HTTPSessionManager.m */; };
+		3696C664202E8D1800FA512C /* NetWorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C663202E8D1800FA512C /* NetWorkingViewController.m */; };
+		3696C668202E8D2B00FA512C /* ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C667202E8D2B00FA512C /* ErrorView.m */; };
+		3696C66C202E8D3D00FA512C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C66A202E8D3D00FA512C /* HomeViewController.m */; };
+		3696C675202E8D7B00FA512C /* AlertTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C673202E8D7A00FA512C /* AlertTableViewCell.m */; };
+		3696C676202E8D7B00FA512C /* AlertTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3696C674202E8D7A00FA512C /* AlertTableViewCell.xib */; };
+		3696C679202E8D8100FA512C /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C677202E8D8100FA512C /* AlertView.m */; };
+		3696C67C202E8D8A00FA512C /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C67A202E8D8900FA512C /* PayView.m */; };
+		3696C680202E8D9200FA512C /* payCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3696C67E202E8D9100FA512C /* payCell.xib */; };
+		3696C681202E8D9200FA512C /* payCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C67F202E8D9100FA512C /* payCell.m */; };
+		3696C684202E8D9A00FA512C /* PayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C683202E8D9A00FA512C /* PayController.m */; };
+		3696C686202E8E6C00FA512C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3696C685202E8E6B00FA512C /* Assets.xcassets */; };
+		3696C68C202E96A800FA512C /* XCToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C688202E96A800FA512C /* XCToast.m */; };
+		3696C68D202E96A800FA512C /* PromptViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C68B202E96A800FA512C /* PromptViewTwo.m */; };
+		3696C690202E973F00FA512C /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C68E202E973E00FA512C /* View.m */; };
+		36BA949C2040FD1B007AB8B4 /* TouchMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BA949B2040FD1B007AB8B4 /* TouchMoveViewController.m */; };
+		36BA94A320411045007AB8B4 /* ButtonSpreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BA94A220411045007AB8B4 /* ButtonSpreadViewController.m */; };
+		36BA94A620411086007AB8B4 /* WPWaveRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BA94A520411086007AB8B4 /* WPWaveRippleView.m */; };
+		36BA94AA20413798007AB8B4 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BA94A920413798007AB8B4 /* KSViewController.m */; };
+		45FCB5AE1795BAC1936F9D3D /* libPods-smartHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D57313B6A3EC97BBB3EFFFA1 /* libPods-smartHome.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3626A053202EA4B100A4ED91 /* ViewControllertest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllertest1.h; sourceTree = "<group>"; };
+		3626A054202EA4B100A4ED91 /* ViewControllertest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllertest1.m; sourceTree = "<group>"; };
+		3626A0572031623900A4ED91 /* BluetoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		3626A0582031623900A4ED91 /* BluetoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
 		3696C615202E8AEB00FA512C /* smartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3696C618202E8AEB00FA512C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3696C619202E8AEB00FA512C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3696C61B202E8AEB00FA512C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3696C61C202E8AEB00FA512C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3696C61F202E8AEB00FA512C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3696C621202E8AEB00FA512C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3696C624202E8AEB00FA512C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3696C626202E8AEB00FA512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3696C627202E8AEB00FA512C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +77,56 @@
 		3696C638202E8AEB00FA512C /* smartHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3696C63C202E8AEB00FA512C /* smartHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smartHomeUITests.m; sourceTree = "<group>"; };
 		3696C63E202E8AEB00FA512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3696C64B202E8BBE00FA512C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3696C64D202E8CBF00FA512C /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		3696C64E202E8CBF00FA512C /* InitializeViwe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeViwe.h; sourceTree = "<group>"; };
+		3696C64F202E8CBF00FA512C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3696C650202E8CBF00FA512C /* UIWindow+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Motion.h"; sourceTree = "<group>"; };
+		3696C651202E8CC000FA512C /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		3696C652202E8CC000FA512C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3696C653202E8CC000FA512C /* UIColor+APPcolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APPcolor.h"; sourceTree = "<group>"; };
+		3696C654202E8CC000FA512C /* UIColor+APPcolor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APPcolor.m"; sourceTree = "<group>"; };
+		3696C655202E8CC100FA512C /* UIWindow+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Motion.m"; sourceTree = "<group>"; };
+		3696C65B202E8CD100FA512C /* RespondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespondModel.m; sourceTree = "<group>"; };
+		3696C65C202E8CD100FA512C /* HTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPSessionManager.h; sourceTree = "<group>"; };
+		3696C65D202E8CD200FA512C /* HTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSessionManager.m; sourceTree = "<group>"; };
+		3696C65E202E8CD200FA512C /* RespondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespondModel.h; sourceTree = "<group>"; };
+		3696C662202E8D1800FA512C /* NetWorkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingViewController.h; sourceTree = "<group>"; };
+		3696C663202E8D1800FA512C /* NetWorkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingViewController.m; sourceTree = "<group>"; };
+		3696C666202E8D2A00FA512C /* ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorView.h; sourceTree = "<group>"; };
+		3696C667202E8D2B00FA512C /* ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorView.m; sourceTree = "<group>"; };
+		3696C66A202E8D3D00FA512C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3696C66B202E8D3D00FA512C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3696C672202E8D7A00FA512C /* AlertTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableViewCell.h; sourceTree = "<group>"; };
+		3696C673202E8D7A00FA512C /* AlertTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewCell.m; sourceTree = "<group>"; };
+		3696C674202E8D7A00FA512C /* AlertTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertTableViewCell.xib; sourceTree = "<group>"; };
+		3696C677202E8D8100FA512C /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		3696C678202E8D8100FA512C /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		3696C67A202E8D8900FA512C /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		3696C67B202E8D8900FA512C /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		3696C67D202E8D9000FA512C /* payCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payCell.h; sourceTree = "<group>"; };
+		3696C67E202E8D9100FA512C /* payCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = payCell.xib; sourceTree = "<group>"; };
+		3696C67F202E8D9100FA512C /* payCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payCell.m; sourceTree = "<group>"; };
+		3696C682202E8D9A00FA512C /* PayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayController.h; sourceTree = "<group>"; };
+		3696C683202E8D9A00FA512C /* PayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayController.m; sourceTree = "<group>"; };
+		3696C685202E8E6B00FA512C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3696C688202E96A800FA512C /* XCToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCToast.m; sourceTree = "<group>"; };
+		3696C689202E96A800FA512C /* XCToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCToast.h; sourceTree = "<group>"; };
+		3696C68A202E96A800FA512C /* PromptViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptViewTwo.h; sourceTree = "<group>"; };
+		3696C68B202E96A800FA512C /* PromptViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptViewTwo.m; sourceTree = "<group>"; };
+		3696C68E202E973E00FA512C /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		3696C68F202E973F00FA512C /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		36BA949A2040FD1B007AB8B4 /* TouchMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchMoveViewController.h; sourceTree = "<group>"; };
+		36BA949B2040FD1B007AB8B4 /* TouchMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchMoveViewController.m; sourceTree = "<group>"; };
+		36BA94A120411045007AB8B4 /* ButtonSpreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonSpreadViewController.h; sourceTree = "<group>"; };
+		36BA94A220411045007AB8B4 /* ButtonSpreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonSpreadViewController.m; sourceTree = "<group>"; };
+		36BA94A420411086007AB8B4 /* WPWaveRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWaveRippleView.h; sourceTree = "<group>"; };
+		36BA94A520411086007AB8B4 /* WPWaveRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWaveRippleView.m; sourceTree = "<group>"; };
+		36BA94A820413798007AB8B4 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		36BA94A920413798007AB8B4 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		4429B857BEC66CB597A00E60 /* Pods-smartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smartHome/Pods-smartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		D57313B6A3EC97BBB3EFFFA1 /* libPods-smartHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-smartHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06BCF6BC1B1E6D41424382C /* Pods-smartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-smartHome/Pods-smartHome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FCB5AE1795BAC1936F9D3D /* libPods-smartHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +155,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3626A052202EA48500A4ED91 /* 测试VC */ = {
+			isa = PBXGroup;
+			children = (
+				3626A053202EA4B100A4ED91 /* ViewControllertest1.h */,
+				3626A054202EA4B100A4ED91 /* ViewControllertest1.m */,
+			);
+			path = "测试VC";
+			sourceTree = "<group>";
+		};
+		3626A0562031622B00A4ED91 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				3626A0572031623900A4ED91 /* BluetoothViewController.h */,
+				3626A0582031623900A4ED91 /* BluetoothViewController.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
 		3696C60C202E8AEB00FA512C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +180,8 @@
 				3696C630202E8AEB00FA512C /* smartHomeTests */,
 				3696C63B202E8AEB00FA512C /* smartHomeUITests */,
 				3696C616202E8AEB00FA512C /* Products */,
+				7DD5CEB4D9DE267FAD658DCB /* Pods */,
+				E541B319C821C47852EA864B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +198,24 @@
 		3696C617202E8AEB00FA512C /* smartHome */ = {
 			isa = PBXGroup;
 			children = (
+				36BA94A720413779007AB8B4 /* 扩散 */,
+				36BA94A020411016007AB8B4 /* 按钮扩散 */,
+				36BA94992040FCFE007AB8B4 /* 拖动排序 */,
+				3626A0562031622B00A4ED91 /* Bluetooth */,
+				3626A052202EA48500A4ED91 /* 测试VC */,
+				3696C66D202E8D4300FA512C /* PayController */,
+				3696C669202E8D3000FA512C /* Home */,
+				3696C661202E8D0D00FA512C /* NetWorkingVC */,
+				3696C65A202E8CC500FA512C /* NetWorkTool */,
+				3696C64C202E8CAD00FA512C /* ViewTool */,
 				3696C618202E8AEB00FA512C /* AppDelegate.h */,
 				3696C619202E8AEB00FA512C /* AppDelegate.m */,
-				3696C61B202E8AEB00FA512C /* ViewController.h */,
-				3696C61C202E8AEB00FA512C /* ViewController.m */,
 				3696C61E202E8AEB00FA512C /* Main.storyboard */,
-				3696C621202E8AEB00FA512C /* Assets.xcassets */,
+				3696C685202E8E6B00FA512C /* Assets.xcassets */,
 				3696C623202E8AEB00FA512C /* LaunchScreen.storyboard */,
 				3696C626202E8AEB00FA512C /* Info.plist */,
 				3696C627202E8AEB00FA512C /* main.m */,
+				3696C64B202E8BBE00FA512C /* PrefixHeader.pch */,
 			);
 			path = smartHome;
 			sourceTree = "<group>";
@@ -132,6 +238,204 @@
 			path = smartHomeUITests;
 			sourceTree = "<group>";
 		};
+		3696C64C202E8CAD00FA512C /* ViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				3696C693202E99C900FA512C /* AnyViewControllerSuper */,
+				3696C692202E99BB00FA512C /* APPColor */,
+				3696C691202E998400FA512C /* ViewTool */,
+				3696C665202E8D2200FA512C /* ErrorView */,
+				3696C687202E969900FA512C /* Tost */,
+				3696C651202E8CC000FA512C /* Button.h */,
+				3696C64D202E8CBF00FA512C /* Button.m */,
+			);
+			path = ViewTool;
+			sourceTree = "<group>";
+		};
+		3696C65A202E8CC500FA512C /* NetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				3696C65C202E8CD100FA512C /* HTTPSessionManager.h */,
+				3696C65D202E8CD200FA512C /* HTTPSessionManager.m */,
+				3696C65E202E8CD200FA512C /* RespondModel.h */,
+				3696C65B202E8CD100FA512C /* RespondModel.m */,
+			);
+			name = NetWorkTool;
+			sourceTree = "<group>";
+		};
+		3696C661202E8D0D00FA512C /* NetWorkingVC */ = {
+			isa = PBXGroup;
+			children = (
+				3696C662202E8D1800FA512C /* NetWorkingViewController.h */,
+				3696C663202E8D1800FA512C /* NetWorkingViewController.m */,
+			);
+			path = NetWorkingVC;
+			sourceTree = "<group>";
+		};
+		3696C665202E8D2200FA512C /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				3696C666202E8D2A00FA512C /* ErrorView.h */,
+				3696C667202E8D2B00FA512C /* ErrorView.m */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		3696C669202E8D3000FA512C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3696C694202E9A2E00FA512C /* c */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3696C66D202E8D4300FA512C /* PayController */ = {
+			isa = PBXGroup;
+			children = (
+				3696C682202E8D9A00FA512C /* PayController.h */,
+				3696C683202E8D9A00FA512C /* PayController.m */,
+				3696C66F202E8D5900FA512C /* Pay_V */,
+				3696C66E202E8D5400FA512C /* Alert_V */,
+			);
+			path = PayController;
+			sourceTree = "<group>";
+		};
+		3696C66E202E8D5400FA512C /* Alert_V */ = {
+			isa = PBXGroup;
+			children = (
+				3696C678202E8D8100FA512C /* AlertView.h */,
+				3696C677202E8D8100FA512C /* AlertView.m */,
+				3696C671202E8D7000FA512C /* v */,
+			);
+			path = Alert_V;
+			sourceTree = "<group>";
+		};
+		3696C66F202E8D5900FA512C /* Pay_V */ = {
+			isa = PBXGroup;
+			children = (
+				3696C67B202E8D8900FA512C /* PayView.h */,
+				3696C67A202E8D8900FA512C /* PayView.m */,
+				3696C670202E8D6B00FA512C /* v */,
+			);
+			path = Pay_V;
+			sourceTree = "<group>";
+		};
+		3696C670202E8D6B00FA512C /* v */ = {
+			isa = PBXGroup;
+			children = (
+				3696C67D202E8D9000FA512C /* payCell.h */,
+				3696C67F202E8D9100FA512C /* payCell.m */,
+				3696C67E202E8D9100FA512C /* payCell.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		3696C671202E8D7000FA512C /* v */ = {
+			isa = PBXGroup;
+			children = (
+				3696C672202E8D7A00FA512C /* AlertTableViewCell.h */,
+				3696C673202E8D7A00FA512C /* AlertTableViewCell.m */,
+				3696C674202E8D7A00FA512C /* AlertTableViewCell.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		3696C687202E969900FA512C /* Tost */ = {
+			isa = PBXGroup;
+			children = (
+				3696C68F202E973F00FA512C /* View.h */,
+				3696C68E202E973E00FA512C /* View.m */,
+				3696C68A202E96A800FA512C /* PromptViewTwo.h */,
+				3696C68B202E96A800FA512C /* PromptViewTwo.m */,
+				3696C689202E96A800FA512C /* XCToast.h */,
+				3696C688202E96A800FA512C /* XCToast.m */,
+			);
+			path = Tost;
+			sourceTree = "<group>";
+		};
+		3696C691202E998400FA512C /* ViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				3696C650202E8CBF00FA512C /* UIWindow+Motion.h */,
+				3696C655202E8CC100FA512C /* UIWindow+Motion.m */,
+			);
+			path = ViewTool;
+			sourceTree = "<group>";
+		};
+		3696C692202E99BB00FA512C /* APPColor */ = {
+			isa = PBXGroup;
+			children = (
+				3696C653202E8CC000FA512C /* UIColor+APPcolor.h */,
+				3696C654202E8CC000FA512C /* UIColor+APPcolor.m */,
+			);
+			path = APPColor;
+			sourceTree = "<group>";
+		};
+		3696C693202E99C900FA512C /* AnyViewControllerSuper */ = {
+			isa = PBXGroup;
+			children = (
+				3696C64E202E8CBF00FA512C /* InitializeViwe.h */,
+				3696C652202E8CC000FA512C /* ViewController.h */,
+				3696C64F202E8CBF00FA512C /* ViewController.m */,
+			);
+			path = AnyViewControllerSuper;
+			sourceTree = "<group>";
+		};
+		3696C694202E9A2E00FA512C /* c */ = {
+			isa = PBXGroup;
+			children = (
+				3696C66B202E8D3D00FA512C /* HomeViewController.h */,
+				3696C66A202E8D3D00FA512C /* HomeViewController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		36BA94992040FCFE007AB8B4 /* 拖动排序 */ = {
+			isa = PBXGroup;
+			children = (
+				36BA949A2040FD1B007AB8B4 /* TouchMoveViewController.h */,
+				36BA949B2040FD1B007AB8B4 /* TouchMoveViewController.m */,
+			);
+			path = "拖动排序";
+			sourceTree = "<group>";
+		};
+		36BA94A020411016007AB8B4 /* 按钮扩散 */ = {
+			isa = PBXGroup;
+			children = (
+				36BA94A420411086007AB8B4 /* WPWaveRippleView.h */,
+				36BA94A520411086007AB8B4 /* WPWaveRippleView.m */,
+				36BA94A120411045007AB8B4 /* ButtonSpreadViewController.h */,
+				36BA94A220411045007AB8B4 /* ButtonSpreadViewController.m */,
+			);
+			path = "按钮扩散";
+			sourceTree = "<group>";
+		};
+		36BA94A720413779007AB8B4 /* 扩散 */ = {
+			isa = PBXGroup;
+			children = (
+				36BA94A820413798007AB8B4 /* KSViewController.h */,
+				36BA94A920413798007AB8B4 /* KSViewController.m */,
+			);
+			path = "扩散";
+			sourceTree = "<group>";
+		};
+		7DD5CEB4D9DE267FAD658DCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4429B857BEC66CB597A00E60 /* Pods-smartHome.debug.xcconfig */,
+				F06BCF6BC1B1E6D41424382C /* Pods-smartHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E541B319C821C47852EA864B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57313B6A3EC97BBB3EFFFA1 /* libPods-smartHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3696C641202E8AEB00FA512C /* Build configuration list for PBXNativeTarget "smartHome" */;
 			buildPhases = (
+				8B2C070BA8055F36C92862F9 /* [CP] Check Pods Manifest.lock */,
 				3696C611202E8AEB00FA512C /* Sources */,
 				3696C612202E8AEB00FA512C /* Frameworks */,
 				3696C613202E8AEB00FA512C /* Resources */,
+				E51DE1EB56FB4AE90B561C1E /* [CP] Embed Pods Frameworks */,
+				C2093ECA07A8257C0C9F7D84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +546,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3696C625202E8AEB00FA512C /* LaunchScreen.storyboard in Resources */,
-				3696C622202E8AEB00FA512C /* Assets.xcassets in Resources */,
+				3696C680202E8D9200FA512C /* payCell.xib in Resources */,
+				3696C676202E8D7B00FA512C /* AlertTableViewCell.xib in Resources */,
 				3696C620202E8AEB00FA512C /* Main.storyboard in Resources */,
+				3696C686202E8E6C00FA512C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +569,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B2C070BA8055F36C92862F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2093ECA07A8257C0C9F7D84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-smartHome/Pods-smartHome-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartHome/Pods-smartHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51DE1EB56FB4AE90B561C1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-smartHome/Pods-smartHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3696C611202E8AEB00FA512C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3696C61D202E8AEB00FA512C /* ViewController.m in Sources */,
+				3696C664202E8D1800FA512C /* NetWorkingViewController.m in Sources */,
+				3696C679202E8D8100FA512C /* AlertView.m in Sources */,
+				3696C658202E8CC100FA512C /* UIColor+APPcolor.m in Sources */,
 				3696C628202E8AEB00FA512C /* main.m in Sources */,
+				3696C660202E8CD200FA512C /* HTTPSessionManager.m in Sources */,
+				3696C68D202E96A800FA512C /* PromptViewTwo.m in Sources */,
+				3696C690202E973F00FA512C /* View.m in Sources */,
 				3696C61A202E8AEB00FA512C /* AppDelegate.m in Sources */,
+				3696C656202E8CC100FA512C /* Button.m in Sources */,
+				36BA94AA20413798007AB8B4 /* KSViewController.m in Sources */,
+				3696C65F202E8CD200FA512C /* RespondModel.m in Sources */,
+				3696C67C202E8D8A00FA512C /* PayView.m in Sources */,
+				3696C68C202E96A800FA512C /* XCToast.m in Sources */,
+				3696C659202E8CC100FA512C /* UIWindow+Motion.m in Sources */,
+				3696C657202E8CC100FA512C /* ViewController.m in Sources */,
+				36BA94A620411086007AB8B4 /* WPWaveRippleView.m in Sources */,
+				3696C668202E8D2B00FA512C /* ErrorView.m in Sources */,
+				3696C66C202E8D3D00FA512C /* HomeViewController.m in Sources */,
+				3626A0592031623900A4ED91 /* BluetoothViewController.m in Sources */,
+				3626A055202EA4B100A4ED91 /* ViewControllertest1.m in Sources */,
+				3696C681202E8D9200FA512C /* payCell.m in Sources */,
+				36BA949C2040FD1B007AB8B4 /* TouchMoveViewController.m in Sources */,
+				3696C684202E8D9A00FA512C /* PayController.m in Sources */,
+				36BA94A320411045007AB8B4 /* ButtonSpreadViewController.m in Sources */,
+				3696C675202E8D7B00FA512C /* AlertTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +813,15 @@
 		};
 		3696C642202E8AEB00FA512C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4429B857BEC66CB597A00E60 /* Pods-smartHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WA3G6F6L8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/smartHome/PrefixHeader.pch";
 				INFOPLIST_FILE = smartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuibang.smartHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +831,15 @@
 		};
 		3696C643202E8AEB00FA512C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06BCF6BC1B1E6D41424382C /* Pods-smartHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WA3G6F6L8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/smartHome/PrefixHeader.pch";
 				INFOPLIST_FILE = smartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuibang.smartHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,17 @@
+
+
+source 'https://github.com/tanxianj/TXJRepo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,'8.0'
+inhibit_all_warnings!
+	target 'smartHome' do
+	pod 'FDFullscreenPopGesture'
+	pod 'AFNetwork'
+	pod 'FLEX', '~> 2.4.0'
+	pod 'Masonry'
+	pod 'JPFPSStatus', '~> 0.1.1'
+	pod 'MJRefresh'
+	pod 'MJExtension'
+	pod 'YYText'
+    pod 'TXJAllTools'
+end
