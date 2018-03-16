@@ -65,7 +65,9 @@
                         @{@"title":@"蓝牙",@"Controller":@"BluetoothViewController" },
                         @{@"title":@"拖动排序",@"Controller":@"TouchMoveViewController" },
                         @{@"title":@"扩散按钮",@"Controller":@"ButtonSpreadViewController" },
-//                        @{@"title":@"扩散按钮2",@"Controller":@"KSViewController" },
+                        @{@"title":@"扩散按钮2",@"Controller":@"KSViewController" },
+                        @{@"title":@"Baby蓝牙",@"Controller":@"BabyBluetoothViewController" },
+                        
 
                         
                         ];

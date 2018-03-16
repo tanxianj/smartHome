@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3626A055202EA4B100A4ED91 /* ViewControllertest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626A054202EA4B100A4ED91 /* ViewControllertest1.m */; };
 		3626A0592031623900A4ED91 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626A0582031623900A4ED91 /* BluetoothViewController.m */; };
+		364464772045086000DA676E /* StrConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 364464752045085F00DA676E /* StrConversion.m */; };
+		368F404B20452B5A002D669E /* BabyBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368F404A20452B5A002D669E /* BabyBluetoothViewController.m */; };
 		3696C61A202E8AEB00FA512C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3696C619202E8AEB00FA512C /* AppDelegate.m */; };
 		3696C620202E8AEB00FA512C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3696C61E202E8AEB00FA512C /* Main.storyboard */; };
 		3696C625202E8AEB00FA512C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3696C623202E8AEB00FA512C /* LaunchScreen.storyboard */; };
@@ -64,6 +66,10 @@
 		3626A054202EA4B100A4ED91 /* ViewControllertest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllertest1.m; sourceTree = "<group>"; };
 		3626A0572031623900A4ED91 /* BluetoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
 		3626A0582031623900A4ED91 /* BluetoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		364464752045085F00DA676E /* StrConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrConversion.m; sourceTree = "<group>"; };
+		364464762045085F00DA676E /* StrConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrConversion.h; sourceTree = "<group>"; };
+		368F404920452B5A002D669E /* BabyBluetoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyBluetoothViewController.h; sourceTree = "<group>"; };
+		368F404A20452B5A002D669E /* BabyBluetoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyBluetoothViewController.m; sourceTree = "<group>"; };
 		3696C615202E8AEB00FA512C /* smartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3696C618202E8AEB00FA512C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3696C619202E8AEB00FA512C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +179,24 @@
 			path = Bluetooth;
 			sourceTree = "<group>";
 		};
+		364464742045085F00DA676E /* 字符串转换方法 */ = {
+			isa = PBXGroup;
+			children = (
+				364464752045085F00DA676E /* StrConversion.m */,
+				364464762045085F00DA676E /* StrConversion.h */,
+			);
+			path = "字符串转换方法";
+			sourceTree = "<group>";
+		};
+		368F404820452B3B002D669E /* Baby蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				368F404920452B5A002D669E /* BabyBluetoothViewController.h */,
+				368F404A20452B5A002D669E /* BabyBluetoothViewController.m */,
+			);
+			path = "Baby蓝牙";
+			sourceTree = "<group>";
+		};
 		3696C60C202E8AEB00FA512C = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +222,8 @@
 		3696C617202E8AEB00FA512C /* smartHome */ = {
 			isa = PBXGroup;
 			children = (
+				368F404820452B3B002D669E /* Baby蓝牙 */,
+				364464742045085F00DA676E /* 字符串转换方法 */,
 				36BA94A720413779007AB8B4 /* 扩散 */,
 				36BA94A020411016007AB8B4 /* 按钮扩散 */,
 				36BA94992040FCFE007AB8B4 /* 拖动排序 */,
@@ -628,6 +654,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368F404B20452B5A002D669E /* BabyBluetoothViewController.m in Sources */,
 				3696C664202E8D1800FA512C /* NetWorkingViewController.m in Sources */,
 				3696C679202E8D8100FA512C /* AlertView.m in Sources */,
 				3696C658202E8CC100FA512C /* UIColor+APPcolor.m in Sources */,
@@ -653,6 +680,7 @@
 				3696C684202E8D9A00FA512C /* PayController.m in Sources */,
 				36BA94A320411045007AB8B4 /* ButtonSpreadViewController.m in Sources */,
 				3696C675202E8D7B00FA512C /* AlertTableViewCell.m in Sources */,
+				364464772045086000DA676E /* StrConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

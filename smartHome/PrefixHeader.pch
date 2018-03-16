@@ -37,6 +37,7 @@
 #import <MJRefresh/MJRefresh.h>
 #import <YYText/YYText.h>
 #import <TXJAllTools/AllTools.h>
+#import <BabyBluetooth.h>
 //
 #define kNoDataPromptText               @"您暂时没有相关数据"
 #define kNetworkErrorPromptText         @"网络好像出错啦"
